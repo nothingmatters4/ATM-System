@@ -44,37 +44,37 @@ A clean and interactive homepage offering:
 
 ## 📸 Screenshots
 
-| **Registration Page 1**               
-|----------------------------------------
-| ![Registration Page 1](screenshots/registration1.png) 
+| **Registration Page 1**               | **Registration Page 2**               |
+|----------------------------------------|----------------------------------------|
+| ![Registration Page 1](src/screenshots/registration1.png) | ![Registration Page 2](src/screenshots/registration2.png) 
 
-| **Registration Page 2**               |
-|----------------------------------------|
-| ![Registration Page 2](screenshots/registration2.png) 
+
+
+
 
 | **Registration Page 3**               | **Registration Success**                 |
 |-----------------------------------------|------------------------------------------|
-| ![Registration Page 3](screenshots/registration3.png) | ![Registration Success](screenshots/registration_success.png) |
+| ![Registration Page 3](src/screenshots/registration3.png) | ![Registration Success](src/screenshots/registration_success.png) |
 
 | **Login Page**                         | **Home Page**                           |
 |-----------------------------------------|------------------------------------------|
-| ![Login Page](screenshots/login.png)    | ![Home Page](screenshots/home.png)      |
+| ![Login Page](src/screenshots/login.png)    | ![Home Page](src/screenshots/home.png)      |
 
 | **Withdraw Page**                      | **Deposit Page**                        |
 |-----------------------------------------|------------------------------------------|
-| ![Withdraw Page](screenshots/withdraw.png) | ![Deposit Page](screenshots/deposit.png) |
+| ![Withdraw Page](src/screenshots/withdraw.png) | ![Deposit Page](src/screenshots/deposit.png) |
 
 | **Fast Cash Page**                     | **Change PIN Page**                     |
 |-----------------------------------------|------------------------------------------|
-| ![Fast Cash Page](screenshots/fastcash.png) | ![Change PIN](screenshots/changepin.png) |
+| ![Fast Cash Page](src/screenshots/fastcash.png) | ![Change PIN](src/screenshots/changepin.png) |
 
 | **Profile Page**                        | **Mini Statement Page**                 |
 |------------------------------------------|------------------------------------------|
-| ![Profile Page](screenshots/profile.png) | ![Mini Statement](screenshots/ministatement.png) |
+| ![Profile Page](src/screenshots/profile.png) | ![Mini Statement](src/screenshots/ministatement.png) |
 
 | **Balance Enquiry Page**               |             
 |-----------------------------------------|
-| ![Balance Enquiry](screenshots/balance.png) 
+| ![Balance Enquiry](src/screenshots/balance.png) 
 
 
 ---
@@ -89,6 +89,3 @@ A clean and interactive homepage offering:
 
 ---
 
-## 📂 Folder Structure
-
-!(screenshots/folder.png) 
