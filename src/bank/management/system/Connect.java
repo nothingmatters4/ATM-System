@@ -7,7 +7,7 @@ public class Connect {
     Statement statement;
     public Connect(){
        try{
-            connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/banksystem","root","9930776318");
+            connection=DriverManager.getConnection("");
             statement=connection.createStatement();
        }catch(Exception e){
            e.toString();
