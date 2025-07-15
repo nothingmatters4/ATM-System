@@ -1,54 +1,63 @@
-# 🏦 ATM Management System (Java Swing GUI + MySQL Database)
+# 🏦 ATM Management System (Java Swing GUI + MySQL + Email OTP + PAN/Aadhaar Validation)
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)  
 ![Swing](https://img.shields.io/badge/Swing-GUI-blue?style=for-the-badge)  
 ![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)  
+![Email OTP](https://img.shields.io/badge/Email-OTP-yellow?style=for-the-badge)  
+![Validation](https://img.shields.io/badge/Input-Validation-green?style=for-the-badge)  
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen?style=for-the-badge)  
 
-An **ATM Management System** built using **Java Swing GUI** and **MySQL Database**, designed to replicate the functionality of a real-world ATM. Users can register for a new card, login securely, and perform a variety of banking operations in a **user-friendly interface**.
+An **ATM Management System** built using **Java Swing GUI**, **MySQL Database**, and enhanced with **Email OTP Verification** and **Regex-based PAN/Aadhaar Validation**. This secure and user-friendly application replicates the flow of real-world ATMs, allowing users to register, verify their details, and perform essential banking operations.  
 
 ---
 
 ## ✨ Features
 
-✅ **User Registration**  
-- Multi-step registration process (3 pages) collecting essential user details.  
-- Automatic generation of **Card Number** and **PIN** after successful registration.  
+✅ **Multi-Step Registration Process**  
+- 3-step registration form collecting all essential user details.  
+- **Email OTP Verification**: Validates user email before account creation.  
+- **Regex-Based PAN & Aadhaar Validation**: Ensures inputs are in valid formats (no fake/incorrect IDs).  
+- Automatic generation of **Card Number** and **PIN** upon successful registration.  
 
 ✅ **Secure Login**  
-- Login using **Card Number** and **Password** (stored securely in MySQL).
+- Login using **Card Number** and **Password** securely stored in the database.  
 
 ✅ **Dashboard / Home Page**  
-A simple and interactive homepage with options for:  
+A clean and interactive homepage offering:  
 - 💵 **Withdraw**  
 - 💰 **Deposit**  
-- ⚡ **Fast Cash** (Quick withdrawal in preset amounts)  
+- ⚡ **Fast Cash** (Quick withdrawals)  
 - 🔑 **Change PIN**  
 - 👤 **Profile View**  
 - 🧾 **Mini Statement**  
-- 📊 **Balance Enquiry**
+- 📊 **Balance Enquiry**  
 
-✅ **Transaction Handling**  
-- Updates account balance in **real-time** and stores transaction history in MySQL.  
-- Mini statements for tracking recent activity.  
+✅ **Transaction Management**  
+- Real-time balance updates.  
+- Transactions logged in **MySQL Database**.  
 
-✅ **Intuitive GUI**  
-- Designed with **Java Swing** for a modern and responsive user experience.
+✅ **Modern GUI & Validation**  
+- Designed with **Java Swing** for an intuitive user experience.  
+- Client-side validation to avoid invalid data entry.  
 
 ---
 
 ## 📸 Screenshots
 
-| **Registration Page 1**               | **Registration Page 2**               |
-|----------------------------------------|----------------------------------------|
-| ![Registration Page 1](screenshots/registration1.png) | ![Registration Page 2](screenshots/registration2.png) |
+| **Registration Page 1**               
+|----------------------------------------
+| ![Registration Page 1](screenshots/registration1.png) 
 
-| **Registration Page 3**               | **Registration Success**               |
-|----------------------------------------|-----------------------------------------|
+| **Registration Page 2**               |
+|----------------------------------------|
+| ![Registration Page 2](screenshots/registration2.png) 
+
+| **Registration Page 3**               | **Registration Success**                 |
+|-----------------------------------------|------------------------------------------|
 | ![Registration Page 3](screenshots/registration3.png) | ![Registration Success](screenshots/registration_success.png) |
 
-| **Login Page**                         | **Home Page**                          |
-|-----------------------------------------|-----------------------------------------|
+| **Login Page**                         | **Home Page**                           |
+|-----------------------------------------|------------------------------------------|
 | ![Login Page](screenshots/login.png)    | ![Home Page](screenshots/home.png)      |
 
 | **Withdraw Page**                      | **Deposit Page**                        |
@@ -63,10 +72,9 @@ A simple and interactive homepage with options for:
 |------------------------------------------|------------------------------------------|
 | ![Profile Page](screenshots/profile.png) | ![Mini Statement](screenshots/ministatement.png) |
 
-| **Balance Enquiry Page**               
-|-----------------------------------------
+| **Balance Enquiry Page**               |             
+|-----------------------------------------|
 | ![Balance Enquiry](screenshots/balance.png) 
-
 
 
 ---
@@ -75,10 +83,12 @@ A simple and interactive homepage with options for:
 
 - **Java (JDK 8+)**
 - **Swing GUI Framework**
-- **MySQL Database** (for storing user details & transactions)
-- **JDBC** (Java Database Connectivity)
+- **MySQL Database** (with JDBC integration)
+- **JavaMail API** (for Email OTP verification)
+- **Regex Validation** (PAN & Aadhaar number formats)
 
 ---
 
 ## 📂 Folder Structure
-| ![Balance Enquiry](screenshots/balance.png) 
+
+!(screenshots/folder.png) 
